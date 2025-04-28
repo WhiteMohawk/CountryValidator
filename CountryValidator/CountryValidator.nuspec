@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <!-- doesn't work in multi target framework ?!
+	<id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+	-->
+	<id>CountryValidator_MCS</id> <!--generated online-->
+    <version>1.1.4</version>
+    <title>CountryValidator_MCS</title>
+    <authors>Anghel Valentin, White Mohawk</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/anghelvalentin/CountryValidator</projectUrl>
+    <description>CountryValidator forked from anghelvalentin/CountryValidator</description>
+    <releaseNotes>Temporary solution for Belgian VAT numbers starting with BE1xxxxxxxxx.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <!--<tags>Tag1 Tag2</tags>-->
+  </metadata>
+  <files>
+    <file src="bin\Release\net48\CountryValidator.dll" target="lib\net48"></file>
+    <file src="bin\Release\netstandard2.0\CountryValidator.dll" target="lib\netstandard2.0"></file>
+    <file src="bin\Release\netstandard2.1\CountryValidator.dll" target="lib\netstandard2.1"></file>
+  </files>
+</package>
